@@ -26,16 +26,21 @@ phù hợp với các bài toán IDS hiện đại.
 - Confusion Matrix
 
 ## 🗂️ Cấu trúc thư mục
-NIDS-NF-UQ-Supervised-ML/
+NIDS-Supervised-ML/
 │
 ├── data/
-│   ├── raw/                # Dataset gốc
-│   └── processed/          # Dataset đã tiền xử lý
+│   ├── raw/                # Dataset gốc (NF-UQ-NIDS-v2)
+│   └── processed/          # Dữ liệu đã tiền xử lý
 │
 ├── notebooks/
 │   ├── 01_EDA.ipynb
 │   ├── 02_Feature_Engineering.ipynb
 │   └── 03_Models.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── train.py
+│   └── evaluate.py
 │
 ├── report/
 │   ├── outline.docx
