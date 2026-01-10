@@ -35,7 +35,8 @@ nhằm phát hiện bất thường trong lưu lượng mạng, phục vụ cho 
 ### 4.2 Các mô hình dự kiến
 - Random Forest
 - Support Vector Machine (SVM)
-- (Có thể mở rộng) Logistic Regression / XGBoost
+- Logistic Regression 
+- XGBoost
 
 ## 5. Phương pháp đánh giá
 Các mô hình được đánh giá dựa trên:
@@ -74,7 +75,7 @@ Các mô hình được đánh giá dựa trên:
 - Scikit-learn
 - Matplotlib, Seaborn
 - Jupyter Notebook
-- (Optional) Streamlit cho dashboard
+- Streamlit cho dashboard
 
 ## 8. Phân công nhóm
 - **Huy**: Trưởng nhóm – Machine Learning & tổng hợp
