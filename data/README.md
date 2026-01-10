@@ -28,12 +28,24 @@ phù hợp với các bài toán IDS hiện đại.
 ## 🗂️ Cấu trúc thư mục
 NIDS-NF-UQ-Supervised-ML/
 │
-├── data/ # Dataset & mô tả dữ liệu
-├── notebooks/ # Notebook phân tích & huấn luyện
-├── report/ # Báo cáo đồ án
-├── slides/ # Slide review & bảo vệ
+├── data/
+│   ├── raw/                # Dataset gốc
+│   └── processed/          # Dataset đã tiền xử lý
+│
+├── notebooks/
+│   ├── 01_EDA.ipynb
+│   ├── 02_Feature_Engineering.ipynb
+│   └── 03_Models.ipynb
+│
+├── report/
+│   ├── outline.docx
+│   └── literature_review.docx
+│
+├── slides/
+│   └── review_slides.pptx
+│
+├── requirements.txt
 └── README.md
-
 
 ## 👥 Thành viên nhóm
 - **Huy** – Trưởng nhóm, Machine Learning
