@@ -26,31 +26,24 @@ phù hợp với các bài toán IDS hiện đại.
 - Confusion Matrix
 
 ## 🗂️ Cấu trúc thư mục
-NIDS-Supervised-ML/
-│
-├── data/
-│   ├── raw/                # Dataset gốc (NF-UQ-NIDS-v2)
-│   └── processed/          # Dữ liệu đã tiền xử lý
-│
-├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Feature_Engineering.ipynb
-│   └── 03_Models.ipynb
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── train.py
-│   └── evaluate.py
-│
-├── report/
-│   ├── outline.docx
-│   └── literature_review.docx
-│
-├── slides/
-│   └── review_slides.pptx
-│
-├── requirements.txt
-└── README.md
+## Project Structure
+
+- **data/**: Chứa dữ liệu cho mô hình
+  - **raw/**: Dataset gốc (NF-UQ-NIDS-v2)
+  - **processed/**: Dữ liệu sau tiền xử lý
+
+- **notebooks/**: Jupyter Notebook cho phân tích và thực nghiệm
+  - `01_EDA.ipynb`: Khám phá dữ liệu (EDA)
+  - `02_Feature_Engineering.ipynb`: Xây dựng đặc trưng
+  - `03_Models.ipynb`: Huấn luyện và đánh giá mô hình
+
+- **src/**: Mã nguồn Python
+  - `preprocessing.py`: Tiền xử lý dữ liệu
+  - `train.py`: Huấn luyện mô hình
+  - `evaluate.py`: Đánh giá và so sánh mô hình
+
+- **report/**: Báo cáo đồ án
+- **slides/**: Slide review & bảo vệ
 
 ## 👥 Thành viên nhóm
 - **Huy** – Trưởng nhóm, Machine Learning
