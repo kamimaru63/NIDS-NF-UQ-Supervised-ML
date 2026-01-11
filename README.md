@@ -71,29 +71,28 @@ Các mô hình được đánh giá dựa trên:
 NIDS-Supervised-ML/
 │
 ├── data/
-│ ├── raw/ # Dataset gốc (NF-UNSW-NB15-v3)
-│ └── processed/ # Dữ liệu đã tiền xử lý
+│   ├── raw/                # Dataset gốc (NF-UNSW-NB15-v3)
+│   └── processed/         # Dữ liệu đã tiền xử lý
 │
 ├── notebooks/
-│ ├── 01_EDA.ipynb
-│ ├── 02_Feature_Engineering.ipynb
-│ └── 03_Models.ipynb
+│   ├── 01_EDA.ipynb
+│   ├── 02_Feature_Engineering.ipynb
+│   └── 03_Models.ipynb
 │
 ├── src/
-│ ├── preprocessing.py
-│ ├── train.py
-│ └── evaluate.py
+│   ├── preprocessing.py
+│   ├── train.py
+│   └── evaluate.py
 │
 ├── report/
-│ ├── outline.docx
-│ └── literature_review.docx
+│   ├── outline.docx
+│   └── literature_review.docx
 │
 ├── slides/
-│ └── review_slides.pptx
+│   └── review_slides.pptx
 │
 ├── requirements.txt
 └── README.md
-
 
 ---
 
