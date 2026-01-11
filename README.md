@@ -4,9 +4,7 @@
 Trong bối cảnh các hệ thống mạng ngày càng phức tạp, các cuộc tấn công mạng
 (Intrusion/Anomaly) ngày càng đa dạng và khó phát hiện bằng các phương pháp
 dựa trên luật (rule-based).  
-Đề tài này tập trung xây dựng và so sánh các mô hình **Machine Learning học có giám sát**
-nhằm phát hiện xâm nhập trong lưu lượng mạng dựa trên **NetFlow temporal features**, phục vụ cho hệ thống  
-**Network Intrusion Detection System (NIDS)**.
+Đề tài này tập trung xây dựng và so sánh các mô hình **Machine Learning học có giám sát** nhằm phát hiện xâm nhập trong lưu lượng mạng dựa trên **NetFlow temporal features**, phục vụ cho hệ thống **Network Intrusion Detection System (NIDS)**.
 
 ---
 
