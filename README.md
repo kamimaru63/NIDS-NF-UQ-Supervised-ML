@@ -68,4 +68,61 @@ Các mô hình được đánh giá dựa trên:
 ---
 
 ## 6. Cấu trúc thư mục dự án
+NIDS-Supervised-ML/
+│
+├── data/
+│ ├── raw/ # Dataset gốc (NF-UNSW-NB15-v3)
+│ └── processed/ # Dữ liệu đã tiền xử lý
+│
+├── notebooks/
+│ ├── 01_EDA.ipynb
+│ ├── 02_Feature_Engineering.ipynb
+│ └── 03_Models.ipynb
+│
+├── src/
+│ ├── preprocessing.py
+│ ├── train.py
+│ └── evaluate.py
+│
+├── report/
+│ ├── outline.docx
+│ └── literature_review.docx
+│
+├── slides/
+│ └── review_slides.pptx
+│
+├── requirements.txt
+└── README.md
+
+
+---
+
+## 7. Công nghệ sử dụng
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
+- Streamlit (dashboard)  
+
+---
+
+## 8. Phân công nhóm
+- **Huy**: Trưởng nhóm – Machine Learning & tổng hợp  
+- **Thảo**: Data Analyst – EDA, Feature Engineering  
+- **Hân**: Network & Dataset – Phân tích ATTT  
+- **Hiệp**: Visualization & Report  
+
+---
+
+## 9. Tiến độ
+- Review 1: Tuần 4  
+- Review 2: Tuần 8 (demo)  
+- Review 3: Tuần 12 (demo + báo cáo)  
+- Bảo vệ: Tuần 15  
+
+---
+
+## 10. Giảng viên hướng dẫn
+- **ThS. Hồ Hải**
 
