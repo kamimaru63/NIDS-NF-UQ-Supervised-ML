@@ -122,5 +122,5 @@ NIDS-Supervised-ML/
 ---
 
 ## 10. Giảng viên hướng dẫn
-- **ThS. Hồ Hải**
+- **Thầy Hồ Hải**
 
